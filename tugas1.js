@@ -18,8 +18,8 @@ rl.question('what is your name? ', (name) => {
 }
 
 function isiNoHp(name){
-rl.question('what is your number Hp? ', (number) => {
-    if(!validator.isMobilePhone(number)) {
+rl.question('what is your number Hp?', (number) => {
+    if(!validator.isMobilePhone(number, "id-ID")) {
         isiNoHp(number)
     }else{
         isiEmail(name,number)
