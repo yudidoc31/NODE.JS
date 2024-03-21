@@ -15,3 +15,4 @@ rl.question('what is your email? ', (email) => {
         })
     })
 });
+// perintah untuk menampilkan beberapa pertanyaan
